@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.main{
+    height: 100%;
+}
+
+.settings{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:small;
+    background-color: rgb(167, 166, 166);
+    border: 10px;
+    cursor:pointer;
+    padding-left: 15px;
+    top:0;
+    right:0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.settings img{
+    height: 200px;
+    padding-top: 70px;
+    padding-left: 25px;
+}
+
+input{
+    width: 60px;
+    height: 60px;
+    border-color: rgb(46, 179, 28);
+    cursor:cell;
+    margin : 0px;
+    position: relative;
+    transition: linear;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+    caret-color: transparent;
+    
+}
+
+
+input:hover{
+    border-color: rgb(241, 137, 18);
+
+}
+
+button.keys{
+    width: 95px;
+    height: 35px;
+    border-radius: 12px;
+    background-color: rgb(94, 94, 196);
+    border-color: rgb(94, 94, 196);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 14px;
+    color: rgb(22, 22, 68);
+}
+.settings p{
+    color: black;
+}
+
+
+p#alert{
+    font-size: 17px;
+    font-family :'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
